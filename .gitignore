@@ -1,0 +1,44 @@
+# Archivos y directorios de entornos virtuales
+.conda/
+env/
+.venv/
+.venv/
+
+# Archivos de Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de configuración de IDEs (como Visual Studio Code o PyCharm)
+.vscode/
+.idea/
+
+# Archivos de logs
+*.log
+*.tmp
+
+# Archivos específicos de macOS
+.DS_Store
+
+# Archivos específicos de Windows
+Thumbs.db
+
+# Archivos de configuración específicos
+*.env
+
+# Archivos de bases de datos locales o temporales
+*.sqlite
+*.db
+
+# Archivos de test coverage
+.coverage
+.pytest_cache/
+
+# Archivos relacionados con el sistema operativo
+*.swp
+*.swo
+
+# Archivos generados por los gestores de dependencias
+Pipfile.lock
+poetry.lock
